@@ -1,8 +1,7 @@
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, NavLink } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { loadArticles } from "../../store/articleReducer";
 import SingleArticle from "../SingleArticle";
-import { NavLink } from "react-router-dom";
 import { useEffect } from "react";
 
 const ArticleList = () => {
